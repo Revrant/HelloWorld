@@ -1,4 +1,29 @@
+* {
+    box-sizing: border-box;
+}
+
 .unlist {
 	list-style-type: none;
     align-content: center;
+    padding: 0 0 0 20px;
+    width: 231px;
+}
+
+.unlist li:hover {
+ 	background-color: #BAFFF8;
+}
+
+.deletebutton {
+	display: inline-block;
+	width: 30px;
+}
+
+.deletebutton:hover {
+	cursor: hand;
+	cursor: pointer;
+}
+
+.titlediv {
+	display: inline-block;
+	width: 150px;
 }
