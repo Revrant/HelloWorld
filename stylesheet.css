@@ -6,11 +6,14 @@
 	list-style-type: none;
     align-content: center;
     padding: 0 0 0 20px;
-    width: 231px;
+    width: 400px;
+    /*border-color: blue;
+    border-style: solid;*/
 }
 
 .unlist li:hover {
  	background-color: #BAFFF8;
+ 	transition: 0.2s;
 }
 
 .deletebutton {
@@ -27,3 +30,11 @@
 	display: inline-block;
 	width: 150px;
 }
+
+.datetime {
+	display: inline-block;
+	width: 100px;
+}
+
+/*----------------------------------*/
+
