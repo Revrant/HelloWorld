@@ -58,13 +58,15 @@
 }
 
 .deletebutton {
-	padding: 5px 4px 5px 4px;
 	display: inline-block;
-    width: 3%;
+	text-align: center;
+	vertical-align: middle;
+	font-family: 'Lucida Console';
+    width: 4%;
 }
 
 .deletebutton:hover {
-	background-color: grey;
+	background-color: #f44336;
 	cursor: hand;
 	cursor: pointer;
 }
@@ -78,7 +80,7 @@
 
 .datetime {
 	display: inline-block;
-	width: 9%;
+	width: 8%;
 }
 
 .pressbutton {
