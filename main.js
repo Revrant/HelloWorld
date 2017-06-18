@@ -47,6 +47,7 @@ var addItem = function(title, load)
 		add.appendChild(date);
 		add.appendChild(close);
 		list.appendChild(add);
+
 		temp.value = '';
 	}
 }
