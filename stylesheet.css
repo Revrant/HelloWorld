@@ -1,0 +1,153 @@
+* {
+    box-sizing: border-box;
+}
+
+.header {
+	padding: 30px 40px;
+	font-size: 20px;
+	color: white;
+	text-align: center;
+	background-color: #343CFF;
+}
+
+.title {
+	vertical-align: center;
+	width: 100%;
+}
+
+.unlist {
+	list-style-type: none;
+    width: 100%;
+    margin: 0px;
+    padding: 0px 0px 0px 0px;
+}
+
+.unlist li:nth-child(odd) {
+    background: #f9f9f9;
+}
+
+.unlist li:hover {
+ 	background-color: #C8C8C8;
+ 	transition: 0.02s;
+}
+
+.unlist li.checked {
+    background: #888;
+    color: #fff;
+    text-decoration: line-through;
+}
+
+.input {
+	padding: 10px;
+	border: 0px;
+	width: 65%;
+}
+
+.input p {
+	vertical-align: baseline;
+}
+
+.listitem {
+	height: 50px;
+}
+
+.listitem li.checked {
+    background: #888;
+    color: #fff;
+    text-decoration: line-through;
+}
+
+.deletebutton {
+	display: inline-block;
+	padding: 16px 0 0 0;
+	color: grey;
+	text-align: center;
+	vertical-align: middle;
+	font-family: 'Lucida Console';
+    width: 10%;
+    height: 100%;
+}
+
+.deletebutton:hover {
+	background-color: #f44336;
+	cursor: hand;
+	cursor: pointer;
+	color: #fff;
+}
+
+.titlediv {
+	display: inline-block;
+	font-size: 20px;
+	width: 60%;
+	margin: auto;
+	padding: 0 0 0 10px;
+}
+
+.datetime {
+	display: inline-block;
+	width: 30%;
+	text-align: right;
+}
+
+.pressbutton {
+  padding: 10px;
+  background: #d9d9d9;
+  color: #555;
+  text-align: center;
+  transition: 0.4s;
+  border: 0px;
+  width: 24%;
+}
+
+.pressbutton p {
+	vertical-align: baseline;
+}
+
+.pressbutton:hover {
+	background-color: #bbb;
+}
+
+@media only screen and (min-width: 500px) {
+    .datetime {
+       width: 25%;
+       padding: 0 10px 0 0;
+    }
+
+    .deletebutton {
+    	width: 8%;
+    }
+
+    .titlediv {
+    	width: 67%;
+    }
+}
+
+@media only screen and (min-width: 1160px) {
+    .datetime {
+       width: 22%;
+       padding: 0 10px 0 0;
+    }
+
+    .deletebutton {
+    	width: 4%;
+    }
+
+    .titlediv {
+    	width: 74%;
+    }
+}
+
+@media only screen and (max-width: 440px) {
+    .datetime {
+       width: 22%;
+       padding: 0 10px 0 0;
+    }
+
+    .deletebutton {
+    	width: 4%;
+    }
+
+    .titlediv {
+    	width: 74%;
+    }
+}
